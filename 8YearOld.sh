@@ -1,21 +1,40 @@
 Key: hello
     Decomp: *
-    Reassem: Hiya
+        Reassem: Hiya
 
-Keyword: how
-    Decompostion Rule: How are you *
-    Reassembly Rule: Im doing amazing, how are you?
-    Decompostion Rule:
+Key: how
+    Decomp: How are you*
+        Reassem: Im doing amazing, how are you?
+    Decomp: *how are you*
+        Reassem: Im doing great!
 
-Keyword: older
-    Decompostion Rule: What do you want to be when your older *
-    Reassembly Rule: I want to be a astrounaut
-    Reassembly Rule: I want to be a zoo keeper
-    Reassembly Rule: I want to be a docter
-    Decompostion Rule: I want to be * when im older
-    Reassembly Rule: That sounds cool, what is a *
-    Reassembly Rule: A * that sounds awesome
+Key: older
+    Decomp: What do you want to be when your older*
+        Reassem: I want to be a astrounaut
+        Reassem: I want to be a zoo keeper
+        Reassem: I want to be a docter
+    Decomp: I want to be * when im older
+        Reassem: That sounds cool, what is a*
+        Reassem: A *that sounds awesome
 
-Keyword: goodbye
-    Decompostion Rule: *
-    Reassembly Rule: Bye Bye!!
+Key: happy
+    Decomp: * makes me happy
+        Reassem: Why does * make you happy?
+        Reassem: * makes me happy too
+    Decomp: *Im happy*
+        Reassem: Why are you happy?
+        Reassem: What has made you happy?
+        Reassem: Im happy too
+
+Key: sad
+    Decomp: *Im sad*
+        Reassem: Aw dont be sad, whats up?
+        Reassem: What is wrong?
+        Reassem: Aw cheer up
+    Decomp: * has made me sad
+        Reassem: Why does * make you sad?
+        Reassem: What do you do to cheer yourself up
+
+Key: goodbye
+    Decomp: *
+        Reassem: Bye Bye!!
