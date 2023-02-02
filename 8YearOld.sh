@@ -1,6 +1,6 @@
-Keyword: hello
-    Decompostion Rule: *
-    Reassembly Rule: Hiya
+Key: hello
+    Decomp: *
+    Reassem: Hiya
 
 Keyword: how
     Decompostion Rule: How are you *
