@@ -27,22 +27,32 @@ Key: school
     Decomp: I think school is *
         Reassem: I think school is * too
         Reassem: Why do think school *
-
-Key: animal
-    Decomp: What is your favourite animal?
-        Reassem: I really like giraffes, they are so tall!
-        Reassem: Elephants are awesome there trunks go bahruuuuuuuuuuhaaaaa
-        Reassem: Penguins are my favourite
-
-Key: school
     Decomp: What do you like about school*
         Reassem: I like talking to all my friends.
         Reassem: I like lunch time the most.
-    Decomp: Do you like school* 
-        Reassem: I think school sucks.
-        Reassem: School is boring
-        Reassem: I really enjoy school
-        
+
+Key: space
+    Decomp: *what about space do you like*
+        Reassem: Astrounauts are so awesome!
+    Decomp: *like space*
+        Reassem: Isnt it so cool, whats your favourite planet?
+
+Key: planet
+    Decomp: Saturn is my favourite planet*
+        Reassem: Saturn is my favourite too, its so pretty!
+    Decomp: *is my favourite planet*
+        Reassem: I like 1 too but my favourite is Saturn
+
+Key: animal
+    Decomp: *What is your favourite animal?
+        Reassem: I really like giraffes, they are so tall!
+        Reassem: Elephants are awesome there trunks go bahruuuuuuuuuuhaaaaa
+        Reassem: Penguins are my favourite
+    Decomp: *like animals*
+        Reassem: Oooooo whats your favourite?
+    Decomp: *is my favourite*
+        Reassem: * are one of my favourites too
+        Reassem: * are cool but I like penguins better
 
 Key: happy
     Decomp: * makes me happy
@@ -58,6 +68,9 @@ Key: like
         Reassem: I like * too
         Reassem: What about * do you like
         Reassem: Huh, what is *
+    Decomp: *what do you like*
+        Reassem: I like animals alot!
+        Reassem: I love space
 
 Key: sad
     Decomp: *Im sad*
