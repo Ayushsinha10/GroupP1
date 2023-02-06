@@ -17,6 +17,16 @@ Key: older
         Reassem: That sounds cool, what is a*
         Reassem: A *that sounds awesome
 
+Key: school
+    Decomp: What do you like about school*
+        Reassem: I like talking to all my friends.
+        Reassem: I like lunch time the most.
+    Decomp: Do you like school* 
+        Reassem: I think school sucks.
+        Reassem: School is boring
+        Reassem: I really enjoy school
+        
+
 Key: happy
     Decomp: * makes me happy
         Reassem: Why does * make you happy?
