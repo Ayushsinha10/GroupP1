@@ -23,6 +23,16 @@ Key: [hH]app
         Reassem: Are you always happy?
         Reassem: When do you feel happy?
         Reassem: Do you want to be happy? 
+Key: [kK]ill
+    Decomp: [kK]ill myself
+        Reaseem: suicide is not advisable.
+        Reassem: have you tried before?
+        Reassem: Do you need help?
+    Decomp: [Kk]ill
+        Reassem: Violence is not advisable.
+        Reassem: Have you thought about another solution?
+        Reassem: Is this what is has come to?
+        
 Key: [sS]ad
     Decomp: [nN]ot [sS]ad
         Reassem: What does that mean to you?
@@ -55,12 +65,10 @@ Key: [sS]uicid[ea]
         Reassem: How long have you felt suicidial?
         Reaseem: Is suicide reasonable to you?
         Reassem: Why do you feel suicidal? 
-Key: [Ss]tress 
-    Decomp: [Nn]o [Ss]tress
-        Reassem:        
-Key: 
-    Decomp: 
-        Reassem:                
+        
+Key: [rR]elax
+    Decomp: [rR]elax
+        Reassem: Relaxation sounds good.               
 
 Key: [hH]ello
     Decomp: [hH]ello
@@ -83,6 +91,19 @@ Key: [hH]ey
         Reassem: Hello.
         Reassem: Hey.
         Reassem: Hi.
+Key: [sS]tress
+    Decomp: [Nn]o [Ss]tress
+        Reassem: Have you ever been stressed?
+        Reassem: Have you struggled with stress before?
+        Reassem: Are you always tranquil?
+    Decomp: [Dd]estress
+        Reassem: Do you think you deserve a chance to destress?
+        Reassem: How would you normally destress?
+        Reassem: What does stress mean to you?
+    Decomp: [sS]tress
+        Reassem: Are you always stressed?
+        Reassem: What in your life is stressful?
+        Reassem: Do you stressed right now?
 Key: D34F4L7
     Decomp: \\*
         Reassem: What do you mean?
