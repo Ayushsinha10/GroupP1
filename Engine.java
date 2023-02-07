@@ -9,20 +9,49 @@ import java.io.FileReader;
 class Engine{
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
+        Scanner start = new Scanner(System.in);
         boolean running = true;
-        
-        while(running){
+        System.out.println("Choose Script: \n Doctor [1] \n Child [2]");
+        int choice = start.nextInt();
+        if (choice == 2){
+            System.out.println("You are chatting with a child say hi! [Type quit to exit]");
+            File script = new File ("./8YearOld.sh");
+             while(running){
+            
         String fullinput = reader.nextLine();
         String[] input = fullinput.split(" ");
       
          for (int i = 0; i < input.length; i++){
-          if (input[0].equals("quit"))
+          if (input[0].equals("!quit"))
           running = false;
          }
-           File script = new File ("./8YearOld.sh");
+          
           readScript(input, script, fullinput);
 
         }
+
+        }
+        else if (choice == 1){
+            System.out.println("You are chatting with a doctor say hi! [Type !quit to exit]");
+            File script = new File ("./Doctor.sh");
+             while(running){
+            
+        String fullinput = reader.nextLine();
+        String[] input = fullinput.split(" ");
+      
+         for (int i = 0; i < input.length; i++){
+          if (input[0].equals("!quit"))
+          running = false;
+         }
+          
+          readScript(input, script, fullinput);
+
+        }
+
+        }
+
+        
+        
         
     
     
@@ -40,8 +69,10 @@ class Engine{
         ListIterator<String> listIterator = key.listIterator();
         while(listIterator.hasNext()){
             String test = listIterator.next();
+            Pattern dic = Pattern.compile(test);
             for (int i = 0; i < input.length; i++){
-             if(input[i].matches(test)){
+                Matcher dur = dic.matcher(input[i]);
+             if(dur.find()){
                 decomp = getDecomposition(test, script);
                  ListIterator<String> listIterator2 = decomp.listIterator();
                  
@@ -62,13 +93,14 @@ class Engine{
                 int randomIndex = rand.nextInt(reassem.size());
                
                 String randomElement = reassem.get(randomIndex);
-                System.out.println(randomElement);
+                System.out.println("Eliza: "+randomElement);
                 break;
                   
                   
 
 
                 }
+                break;
 
 
                 
