@@ -11,7 +11,7 @@ class Engine{
         Scanner reader = new Scanner(System.in);
         Scanner start = new Scanner(System.in);
         boolean running = true;
-        System.out.println("Choose Script: \n Doctor [1] \n Child [2]");
+        System.out.println("Choose Script: \n Doctor [1] \n Child [2] \n Pirate[3]");
         int choice = start.nextInt();
         if (choice == 2){
             System.out.println("You are chatting with a child say hi! [Type !quit to exit]");
@@ -54,7 +54,26 @@ class Engine{
         }
 
         }
+        else if (choice == 3){
+            System.out.println("You are chatting with a pirate say hi! [Type !quit to exit]");
+            File script = new File ("./Pirate.sh");
+             while(running){
+            
+        String fullinput = reader.nextLine();
+        String[] input = fullinput.split(" ");
+      
+         for (int i = 0; i < input.length; i++){
+          if (input[0].equals("!quit")){
+          running = false;
+          return;
+          }
+         }
+          
+          readScript(input, script, fullinput);
 
+        }
+
+        }
         
         
         
