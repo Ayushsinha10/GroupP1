@@ -104,6 +104,24 @@ Key: [sS]tress
         Reassem: Are you always stressed?
         Reassem: What in your life is stressful?
         Reassem: Do you stressed right now?
+Key: [Yy]es
+   Decomp: [Yy]es
+        Reaseem: I see
+        Reassem: How does that make you feel?
+        Reassem: Are you positive?
+        Reassem: Can you elaborate?
+        Reassem: Fascinating anything else?
+        Reassem: Bizzare has it always been like this?
+        Reassem: Has it always been the case?
+        Reassem: Really?
+        Reassem: How so?
+        Reassem: yes?
+        Reassem: positively?
+        Reassem: Are you sure?
+Key: [nN]o
+    Decomp: [nN]o
+        Reassem: Definietly?
+        Reassem: Are you just being contrarion
 Key: D34F4L7
     Decomp: \\*
         Reassem: What do you mean?
