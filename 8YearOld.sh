@@ -1,4 +1,4 @@
-Key: hello
+Key: [Hh]ello
     Decomp: *
         Reassem: Hiya
 
@@ -81,11 +81,12 @@ Key: sad
         Reassem: Why does * make you sad?
         Reassem: What do you do to cheer yourself up
 
-Key: goodbye
-    Decomp: *
+Key: [Gg]oodbye
+    Decomp: \\*
         Reassem: Bye Bye!!
 
-Key: *
-    Decomp: Huh?
-    Decomp: Im dont know what that is
-    Decomp: What do you mean?
+Key: D34F4L7
+    Decomp: \\*
+        Reassem: Huh?
+        Reassem: Im dont know what that is
+        Reassem: What do you mean?
