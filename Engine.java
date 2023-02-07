@@ -14,7 +14,7 @@ class Engine{
         System.out.println("Choose Script: \n Doctor [1] \n Child [2]");
         int choice = start.nextInt();
         if (choice == 2){
-            System.out.println("You are chatting with a child say hi! [Type quit to exit]");
+            System.out.println("You are chatting with a child say hi! [Type !quit to exit]");
             File script = new File ("./8YearOld.sh");
              while(running){
             
@@ -22,8 +22,11 @@ class Engine{
         String[] input = fullinput.split(" ");
       
          for (int i = 0; i < input.length; i++){
-          if (input[0].equals("!quit"))
+          if (input[0].equals("!quit")){
           running = false;
+          return;
+          }
+          
          }
           
           readScript(input, script, fullinput);
@@ -40,8 +43,10 @@ class Engine{
         String[] input = fullinput.split(" ");
       
          for (int i = 0; i < input.length; i++){
-          if (input[0].equals("!quit"))
+          if (input[0].equals("!quit")){
           running = false;
+          return;
+          }
          }
           
           readScript(input, script, fullinput);
@@ -82,30 +87,49 @@ class Engine{
           
              Pattern dec = Pattern.compile(decompo);
              Matcher doo = dec.matcher(fullinput);
-               reassem = getReassem(decompo, script);
-              if(doo.find()){
               
-               
-                ListIterator<String> ListIterator3 = reassem.listIterator();
-               
-               while(ListIterator3.hasNext()){
+              if(doo.find()){
+                reassem = getReassem(decompo, script);
                 Random rand = new Random();
                 int randomIndex = rand.nextInt(reassem.size());
                
                 String randomElement = reassem.get(randomIndex);
                 System.out.println("Eliza: "+randomElement);
-                break;
-                  
-                  
-
-
-                }
-                break;
+                return;
 
 
                 
 
-           }
+              }
+         }
+        
+                
+              
+                
+             }
+             
+             
+            }
+             }
+             decomp = getDecomposition("D34F4L7", script);
+                 ListIterator<String> listIterator2 = decomp.listIterator();
+                 
+            while(listIterator2.hasNext()){
+              
+            String decompo = listIterator2.next();
+          
+             Pattern dec = Pattern.compile(decompo);
+             Matcher doo = dec.matcher(fullinput);
+               reassem = getReassem(decompo, script);
+              if(doo.find()){
+                Random rand = new Random();
+                int randomIndex = rand.nextInt(reassem.size());
+               
+                String randomElement = reassem.get(randomIndex);
+                System.out.println("Eliza: "+randomElement);
+                return;
+                 }
+
             
 
            
@@ -113,11 +137,9 @@ class Engine{
         }
                 
               
-                return;
-             }
-             
-            }
-        }
+               
+                   
+
         
        }
 
