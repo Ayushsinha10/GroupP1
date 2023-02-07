@@ -87,5 +87,5 @@ Key: [Gg]oodbye
 Key: D34F4L7
     Decomp: \\*
         Reassem: Huh?
-        Reassem: Im dont know what that is
+        Reassem: I dont know what that is
         Reassem: What do you mean?
