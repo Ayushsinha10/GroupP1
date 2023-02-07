@@ -247,7 +247,7 @@ class Engine{
         
                 }
              
-                if(reassemble.startsWith("    Decomp: ")){
+                if(reassemble.startsWith("    Decomp: ") || reassemble.startsWith("Key: ")){
                     return reassem;
                     
                    
