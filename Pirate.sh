@@ -12,6 +12,10 @@ Key: [Gg]ood
         Reassem: Im glad let us set sail!
         Reassem: Perfect, ready to plunder and pilage the seven seas
 
+Key: [Ss]ad
+    Decomp: [Ss]ad
+        Reassem: Why be that laddie?
+
 Key: [Rr]eady
     Decomp: [Rr]eady
         Reassem: Then lets set sail right away!!
@@ -29,7 +33,7 @@ Key: [Hh]appy
 
 Key: [Ww]hy
     Decomp: [Ww]hy [Hh]appy
-        Reassem: Cause we just plundered a filthy scurvy dog
+        Reassem: Cause we just plundered a filthy scurvy dog for his loot
 
 Key: [Gg]oodbye
     Decomp: [Gg]oodbye
