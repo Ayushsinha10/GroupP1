@@ -12,6 +12,13 @@ Key: [Gg]ood
         Reassem: Im glad let us set sail!
         Reassem: Perfect, ready to plunder and pilage the seven seas
 
+Key: [Rr]eady
+    Decomp: [Rr]eady
+        Reassem: Then lets set sail right away!!
+        Reassem: Then raise the Jolly Roger and lets be off
+    Decomp: [Nn]ot [Rr]eady
+        Reassem: Dont tell me your faird! 
+
 Key: [Hh]appy
     Decomp: [Hh]appy
         Reassem: Good to here me heartie
@@ -19,6 +26,10 @@ Key: [Hh]appy
     decomp: [Uu]nhappy
         Reassem: Well thats nea good
         Reassem: Cheer up laddie, canne have you bringing down the crew
+
+Key: [Ww]hy
+    Decomp: [Ww]hy [Hh]appy
+        Reassem: Cause we just plundered a filthy scurvy dog
 
 Key: [Gg]oodbye
     Decomp: [Gg]oodbye
