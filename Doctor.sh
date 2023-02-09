@@ -32,6 +32,12 @@ Key: [kK]ill
         Reassem: Violence is not advisable.
         Reassem: Have you thought about another solution?
         Reassem: Is this what is has come to?
+Key: [Ss]chool
+    Decomp: [Ss]chool
+        Reassem: Do you like school?
+        Reassem: Does school make you stressed?
+        Reassem: Is this why you are here?
+  
         
 Key: [sS]ad
     Decomp: [nN]ot [sS]ad
@@ -55,7 +61,6 @@ Key: [sS]ad
         Reassem: What makes you sad?
         Reassem: Are you always sad?
         Reassem: What makes you sad?
-
 Key: [sS]uicid[ea]
     Decomp: [sS]uicide
         Reassem: Do you think about suicide often?
@@ -65,7 +70,37 @@ Key: [sS]uicid[ea]
         Reassem: How long have you felt suicidial?
         Reaseem: Is suicide reasonable to you?
         Reassem: Why do you feel suicidal? 
-        
+Key: [Oo]ld
+    Decomp: [Oo]ld
+        Reassem: Does aging scare you?
+        Reassem: Does that make you anxious?
+        Reassem: Are you at peace witht that?
+Key: [Cc]hild
+    Decomp: [Cc]hild
+        Reassem: Did something happen?
+        Reassem: What was your relationship with your parents like?
+        Reassem: Go on.
+Key: [Dd]ifficult
+    Decomp: [Dd]ifficult
+        Reassem: How so?
+        Reassem: Was it always this way
+        Reassem: Expand on it.
+Key: [Hh]ard
+    Decomp: [Hh]ard
+        Reassem: Was it always hard?
+        Reassem: How so?
+        Reassem: Explain.
+Key: [Ee]asy
+    Decomp: [nN]ot [Ee]asy
+        Reassem: How so?
+        Reassem: How hard is it?
+        Reassem: Explain?
+    Decomp: [Ee]asy
+        Reassem: How so?
+        Reassem: Do you find everything easy?
+        Reassem: Explain.
+Key: [Gg]ood
+    Decomp: 
 Key: [rR]elax
     Decomp: [rR]elax
         Reassem: Relaxation sounds good.               
@@ -122,6 +157,13 @@ Key: [nN]o
     Decomp: [nN]o
         Reassem: Definietly?
         Reassem: Are you just being contrarion
+        Reassem: Can you elaborate?
+        Reassem: What does this mean for you?
+        Reassem: Can you be more specific?
+        Reassem: Are you able to go into more detail?
+        Reassem: Expand on that.
+        Reassem: Are you sure?
+        Reassem: How so?
 Key: D34F4L7
     Decomp: \\*
         Reassem: What do you mean?
