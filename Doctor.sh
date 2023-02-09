@@ -57,6 +57,11 @@ Key: [pP]urpose
         Reassem: Maybe you can make your own purpose?
         Reassem: Do you have any hobbies?
         Reassem: That is upto you to decide.
+Key: [Ss]leep
+    Decomp: [Ss]leep
+        Reassem: Do you have trouble sleeping?
+        Reassem: When was the last time you had good sleep?
+        Reassem: Do you always struggle to sleep?
 Key: [Hh]elp
     Decomp: [Hh]elp
         Reassem: What do you need help with?
@@ -110,7 +115,36 @@ Key: [Pp]hysic
         Reassem: Are you a fan?
         Reassem: What does physics mean to you?
         Reassem: Physics is interesting but lets talk about you.
-
+Key: [Pp]eace
+    Decomp: [Pp]eace
+        Reassem: Sounds good!
+        Reassem: Do you feel like your life is peaceful?
+        Reassem: Elaborate.
+Key: [Tt]ired
+    Decomp: [Tt]ired
+        Reassem: Do you sleep well?
+        Reassem: Are you always tired?
+        Reassem: When do you feel tired?
+Key: [aA]lways
+    Decomp: [Aa]lways
+        Reassem: No exceptions?
+        Reassem: Are you sure?
+        Reassem: Really?
+Key: [Ww]atching
+    Decomp: [Ww]atching
+        Reassem: Is this feeling reasonable?
+        Reassem: Why do you believe so?
+        Reassem: Are you sure?
+Key: [Rr]eaching
+    Decomp: [Rr]eaching
+        Reassem: What?
+        Reassem: Explain?
+        Reassem: That is impossible.
+Key: [Kk]now
+    Decomp: [Kk]now
+        Reassem: Really?
+        Reassem: That is unfortunate
+        Reassem: Who can say.
 
 
   
