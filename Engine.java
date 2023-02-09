@@ -219,7 +219,7 @@ class Engine{
        try{ Scanner reader = new Scanner(script);
        while (reader.hasNext()){
         String line = reader.nextLine();
-        if (line.startsWith("Key: "+key)){
+        if (line.equals("Key: "+key)){
             while (reader.hasNext()){
                 String decomposition = reader.nextLine();
                 if (decomposition.startsWith("    Decomp: ")){
@@ -261,7 +261,7 @@ class Engine{
        try{ Scanner reader = new Scanner(script);
        while (reader.hasNext()){
         String line = reader.nextLine();
-        if (line.startsWith("    Decomp: "+key)){
+        if (line.equals("    Decomp: "+key)){
             while (reader.hasNext()){
                 String reassemble = reader.nextLine();
                 if (reassemble.startsWith("        Reassem: ")){
@@ -306,23 +306,3 @@ class Engine{
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

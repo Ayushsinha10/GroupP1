@@ -1,3 +1,18 @@
+
+Key: [Yy]es
+    Decomp: [yY]es
+        Reassem: I see
+        Reassem: How does that make you feel?
+        Reassem: Are you positive?
+        Reassem: Can you elaborate?
+        Reassem: Fascinating anything else?
+        Reassem: Bizzare has it always been like this?
+        Reassem: Has it always been the case?
+        Reassem: Really?
+        Reassem: How so?
+        Reassem: yes?
+        Reassem: positively?
+        Reassem: Are you sure?
 Key: [hH]app
     Decomp: [nN]ot [hH]appy
         Reassem: Why are you unhappy?
@@ -37,6 +52,67 @@ Key: [Ss]chool
         Reassem: Do you like school?
         Reassem: Does school make you stressed?
         Reassem: Is this why you are here?
+Key: [pP]urpose
+    Decomp: [pP]urpose
+        Reassem: Maybe you can make your own purpose?
+        Reassem: Do you have any hobbies?
+        Reassem: That is upto you to decide.
+Key: [Hh]elp
+    Decomp: [Hh]elp
+        Reassem: What do you need help with?
+        Reassem: How can I help?
+        Reassem: That is what I am here for.
+Key: [Pp]arent
+    Decomp: [Pp]arent
+        Reassem: What is your relationship like?
+        Reassem: Do you hold any resentment towards them?
+        Reassem: If they were here now what would you tell them?
+Key: [Bb]ad
+    Decomp: [Bb]ad
+        Reassem: What is so bad?
+        Reassem: How bad?
+        Reassem: Go on.
+Key: [Ee]verything
+    Decomp: [Ee]verything
+        Reassem: Everything?
+        Reassem: What does that mean?
+        Reassem: Surely not?
+Key: [Hh]igh
+    Decomp: [Hh]igh
+        Reassem: How high?
+        Reassem: Drugs are bad for you
+        Reassem: What do you take?
+Key: [Hh]elp
+    Decomp: [Hh]elp
+        Reassem: What do you need help with?
+        Reassem: How can I help?
+        Reassem: That is what I am here for.
+Key: [Tt]rauma
+    Decomp: [Tt]rauma
+        Reassem: What happened?
+        Reassem: Do you still think about it?
+        Reassem: What would it take for you to get over it?
+Key: [Bb]roke
+    Decomp: [bB]roke
+        Reassem: Financially or physically?
+        Reassem: How broken?
+        Reassem: How poor are you?
+Key: [Ff]inanc
+    Decomp: [Ff]inanc
+        Reassem: How long have you struggled with money?
+        Reassem: Are you responsibile with money?
+        Reassem: Money is not always the answer.
+Key: [Pp]hysic
+    Decomp: [Pp]hysically
+        Reassem: Are you strong?
+        Reassem: Do you think force is necessary?
+    Decomp: [Pp]hysic
+        Reassem: Are you a fan?
+        Reassem: What does physics mean to you?
+        Reassem: Physics is interesting but lets talk about you.
+
+
+
   
         
 Key: [sS]ad
@@ -99,6 +175,16 @@ Key: [Ee]asy
         Reassem: How so?
         Reassem: Do you find everything easy?
         Reassem: Explain.
+Key: [Qq]uit
+    Decomp: [Qq]uit
+        Reassem: How long have you thought about quitting? (!quit to leave)
+        Reassem: Do you struggle to quit? (!quit to leave)
+        Reassem: I see. (!quit to leave)
+Key: [bB]ye
+    Decomp: [Bb]ye
+        Reassem: Bye (!quit to leave)
+        Reassem: See you next time (!quit to leave)
+        Reassem: Another time. (!quit to leave)
 
 Key: [rR]elax
     Decomp: [rR]elax
@@ -107,7 +193,7 @@ Key: [Gg]ood
     Decomp: [Gg]ood
         Reassem: How so?
         Reassem: Go on.
-        Reassem Please continue.             
+        Reassem Please continue.  
 
 Key: [hH]ello
     Decomp: [hH]ello
@@ -143,20 +229,7 @@ Key: [sS]tress
         Reassem: Are you always stressed?
         Reassem: What in your life is stressful?
         Reassem: Do you stressed right now?
-Key: [Yy]es
-   Decomp: [Yy]es
-        Reaseem: I see
-        Reassem: How does that make you feel?
-        Reassem: Are you positive?
-        Reassem: Can you elaborate?
-        Reassem: Fascinating anything else?
-        Reassem: Bizzare has it always been like this?
-        Reassem: Has it always been the case?
-        Reassem: Really?
-        Reassem: How so?
-        Reassem: yes?
-        Reassem: positively?
-        Reassem: Are you sure?
+
 Key: [nN]o
     Decomp: [nN]o
         Reassem: Definietly?
@@ -169,6 +242,7 @@ Key: [nN]o
         Reassem: Are you sure?
         Reassem: How so?
         Reassem: Please go on.
+
 Key: D34F4L7
     Decomp: \\*
         Reassem: What do you mean?
