@@ -99,11 +99,15 @@ Key: [Ee]asy
         Reassem: How so?
         Reassem: Do you find everything easy?
         Reassem: Explain.
-Key: [Gg]ood
-    Decomp: 
+
 Key: [rR]elax
     Decomp: [rR]elax
-        Reassem: Relaxation sounds good.               
+        Reassem: Relaxation sounds good.  
+Key: [Gg]ood
+    Decomp: [Gg]ood
+        Reassem: How so?
+        Reassem: Go on.
+        Reassem Please continue.             
 
 Key: [hH]ello
     Decomp: [hH]ello
@@ -164,6 +168,7 @@ Key: [nN]o
         Reassem: Expand on that.
         Reassem: Are you sure?
         Reassem: How so?
+        Reassem: Please go on.
 Key: D34F4L7
     Decomp: \\*
         Reassem: What do you mean?
