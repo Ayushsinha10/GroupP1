@@ -35,8 +35,8 @@ Key: [Ww]hy
     Decomp: [Ww]hy [Hh]appy
         Reassem: Cause we just plundered a filthy scurvy dog for his loot
 
-Key: [Gg]oodbye
-    Decomp: [Gg]oodbye
+Key: [Bb]ye
+    Decomp: [Bb]ye
         Reassem: Goodbye
 
 Key: D34F4L7
