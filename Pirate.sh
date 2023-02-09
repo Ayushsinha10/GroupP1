@@ -17,19 +17,19 @@ Key: [Ss]ad
         Reassem: Why be that laddie?
 
 Key: [Rr]eady
+    Decomp: [Nn]ot [Rr]eady
+        Reassem: Dont tell me your faird! 
     Decomp: [Rr]eady
         Reassem: Then lets set sail right away!!
         Reassem: Then raise the Jolly Roger and lets be off
-    Decomp: [Nn]ot [Rr]eady
-        Reassem: Dont tell me your faird! 
 
 Key: [Hh]appy
+    Decomp: [Uu]nhappy
+        Reassem: Well thats nea good
+        Reassem: Cheer up laddie, canne have you bringing down the crew
     Decomp: [Hh]appy
         Reassem: Good to here me heartie
         Reassem: And why might that be laddie
-    decomp: [Uu]nhappy
-        Reassem: Well thats nea good
-        Reassem: Cheer up laddie, canne have you bringing down the crew
 
 Key: [Ww]hy
     Decomp: [Ww]hy [Hh]appy
@@ -37,7 +37,7 @@ Key: [Ww]hy
 
 Key: [Bb]ye
     Decomp: [Bb]ye
-        Reassem: Goodbye
+        Reassem: Goodbye, me hartie
 
 Key: D34F4L7
     Decomp: \\*
