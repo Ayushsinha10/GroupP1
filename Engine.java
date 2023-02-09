@@ -22,8 +22,9 @@ class Engine{
         String[] input = fullinput.split(" ");
       
          for (int i = 0; i < input.length; i++){
-          if (input[0].equals("!quit")){
+          if (input[i].equals("!quit")){
           running = false;
+          System.out.println("Thanks for chatting!");
           return;
           }
           
@@ -43,8 +44,9 @@ class Engine{
         String[] input = fullinput.split(" ");
       
          for (int i = 0; i < input.length; i++){
-          if (input[0].equals("!quit")){
+          if (input[i].equals("!quit")){
           running = false;
+           System.out.println("Hope to see you for another session.");
           return;
           }
          }
@@ -63,7 +65,8 @@ class Engine{
         String[] input = fullinput.split(" ");
       
          for (int i = 0; i < input.length; i++){
-          if (input[0].equals("!quit")){
+          if (input[i].equals("!quit")){
+             System.out.println("See you another time matey.");
           running = false;
           return;
           }
@@ -87,16 +90,18 @@ class Engine{
         List<String> key = new ArrayList<String>();
         List<String> decomp = new ArrayList<String>();
         List<String> reassem = new ArrayList<String>();
-       
 
+       
+    // Get keywords for script
         key = getKeywords(input, script);
         ListIterator<String> listIterator = key.listIterator();
         while(listIterator.hasNext()){
             String test = listIterator.next();
-            Pattern dic = Pattern.compile(test);
+            Pattern regextest = Pattern.compile(test);
             for (int i = 0; i < input.length; i++){
-                Matcher dur = dic.matcher(input[i]);
-             if(dur.find()){
+                Matcher regexkey = regextest.matcher(input[i]);
+             if(regexkey.find()){
+                // get list of decompostions for the keyword.
                 decomp = getDecomposition(test, script);
                  ListIterator<String> listIterator2 = decomp.listIterator();
                  
@@ -104,10 +109,10 @@ class Engine{
               
             String decompo = listIterator2.next();
           
-             Pattern dec = Pattern.compile(decompo);
-             Matcher doo = dec.matcher(fullinput);
+             Pattern decompregex = Pattern.compile(decompo);
+             Matcher inputregex = decompregex.matcher(fullinput);
               
-              if(doo.find()){
+              if(inputregex.find()){
                 reassem = getReassem(decompo, script);
                 Random rand = new Random();
                 int randomIndex = rand.nextInt(reassem.size());
@@ -137,10 +142,10 @@ class Engine{
               
             String decompo = listIterator2.next();
           
-             Pattern dec = Pattern.compile(decompo);
-             Matcher doo = dec.matcher(fullinput);
+             Pattern decompregex = Pattern.compile(decompo);
+             Matcher inputregex = decompregex.matcher(fullinput);
                reassem = getReassem(decompo, script);
-              if(doo.find()){
+              if(inputregex.find()){
                 Random rand = new Random();
                 int randomIndex = rand.nextInt(reassem.size());
                
@@ -164,8 +169,7 @@ class Engine{
 
 
        catch (FileNotFoundException e) {
-			System.err
-					.println("ERROR: Script file is not in the specified location.");
+			System.err.println("ERROR: Script file is not in the specified location.");
 			System.exit(0);
 		} 
        
@@ -177,16 +181,20 @@ class Engine{
         public static List<String> getKeywords(String[] input, File script){
              List<String> keywords = new ArrayList<String>();
             try{ Scanner reader = new Scanner(script);
+            // read script
+            
             
        while (reader.hasNext()){
        String line = reader.nextLine();
-       
+       // find all lines that have a keyword
        if (line.startsWith("Key: ")){
+        //
         line = line.replaceAll("Key: ", "");
         Scanner readLine = new Scanner (line);
 
        
         while (readLine.hasNext()){
+            // add keywords to list
         keywords.add(readLine.nextLine());
        
         }
@@ -200,8 +208,7 @@ class Engine{
        
         }
         catch (FileNotFoundException e) {
-			System.err
-					.println("ERROR: Script file is not in the specified location.");
+			System.err.println("ERROR: Script file is not in the specified location.");
 			System.exit(0);
 		} 
         return keywords;
@@ -238,8 +245,6 @@ class Engine{
       
         
        }
-
-
        catch (FileNotFoundException e) {
 			System.err
 					.println("ERROR: Script file is not in the specified location.");
@@ -286,8 +291,7 @@ class Engine{
 
 
        catch (FileNotFoundException e) {
-			System.err
-					.println("ERROR: Script file is not in the specified location.");
+			System.err.println("ERROR: Script file is not in the specified location.");
 			System.exit(0);
 		} 
        
