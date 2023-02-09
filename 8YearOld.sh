@@ -8,10 +8,9 @@ Key: [Hh]ow
         Reassem: Im doing great! What about you?
 
 Key: [Oo]lder
-    Decomp: [Ww]hat do you want to be when your older
+    Decomp: [Ww]hat do you want to be when you're older
         Reassem: I want to be a astrounaut, space is soooo cool
         Reassem: I want to be a zoo keeper because I love animals!
-        Reassem: I want to be a docter
  //   Decomp: I want to be \\* when im older
  //       Reassem: That sounds cool, what is a *
  //       Reassem: Cool, why do you want to be a *
@@ -23,7 +22,6 @@ Key: [Ss]chool
         Reassem: School is really fun, what do you think?
     Decomp: [Ii] think school is good
         Reassem: Same what do you like to do at school?
-    Decomp: [Ii] think school is good
         Reassem: I think school is good too
         Reassem: Why do think school good
     Decomp: [Ww]hat do you like about school
@@ -37,8 +35,22 @@ Key: [Ss]pace
         Reassem: Isnt it so cool, whats your favourite planet?
 
 Key: [Pp]lanet
-    Decomp: [Ss]aturn is my favourite planet
-        Reassem: Saturn is my favourite too, its so pretty!
+    Decomp: [Mm]ercury
+        Reassem: Mercury is my cool, mines is saturn!
+    Decomp: [Vv]enus
+        Reassem: Venus is my favourite too!
+    Decomp: [Ee]arth
+        Reassem: Earth is where we are!
+    Decomp: [Mm]ars
+        Reassem: Mars is my favourite too, its so red!
+    Decomp: [Jj]upiter
+        Reassem: Jupiter is my favourite too, its so Big!
+    Decomp: [Ss]aturn
+        Reassem: Saturn is my favourite too, its rings are so pretty!
+    Decomp: [Uu]ranus
+        Reassem: Uranus has a funny name, my favourite is mars though!
+    Decomp: [Nn]eptune
+        Reassem: Neptune is sooooooo far away!
 //    Decomp: *is my favourite planet
 //        Reassem: I like 1 too but my favourite is Saturn
 
@@ -49,6 +61,12 @@ Key: [Aa]nimal
         Reassem: Penguins are my favourite
     Decomp: [Ll]ike animals*
         Reassem: [Oo]ooooo whats your favourite?
+    Decomp: [Gg]iraffes
+        Reassem: They are super tall!!
+    Decomp: [Ll]ions
+        Reassem: King of the jungle!
+    Decomp: [Ss]nakes
+        Reassem: They go ssssssssssss!!
 //    Decomp: *is my favourite*
 //        Reassem: * are one of my favourites too
 //        Reassem: * are cool but I like penguins better
@@ -57,7 +75,7 @@ Key: [Hh]appy
 //    Decomp: makes me happy
 //        Reassem: Why does * make you happy?
 //        Reassem: * makes me happy too
-    Decomp: [Ii]m happy*
+    Decomp: [Ii]'m [Hh]appy
         Reassem: Why are you happy?
         Reassem: What has made you happy?
         Reassem: Im happy too
